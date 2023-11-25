@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="Dr-form" action="">
+      <!-- <div id="container"> -->
+        <h3>Doctors Name</h3>
+        <input type="text" style="margin-top: -30px;" name="" id="name">
+        <h3>Doctors ID :</h3>
+        <input type="text" name="" id="doctor_id">
+        <h3>Specialization</h3>
+        <select style="width: 80%;height: 30px;margin-left: 10px;" name="" id="specialization">
+          <option value="">covid</option>
+          <option value="">cancer</option>
+        </select>
+        
+        <h3>Experiance</h3>
+        <input type="text" name="" id="experience">
+        <h3>Email Address</h3>
+        <input type="text" name="" id="email">
+        <h3>Mobile Number</h3>
+        <input type="number" name="" id="mobile">
+        <br>
+        <br>
+       <input type="submit" href="./construct.html" style="background-color: blue;color: white;margin-left: 15px;" name="" id="" value="submit">
+      <!-- </div> -->
+
+    </form>
+
+</body>
+</html>
+<script>
+  document.getElementById("Dr-Form").addEventListener('submit', function(){
+    event.preventDefault();
+    let name=document.getElementById('name').value;
+    let doctor_id=document.getElementById('doctor_id').value;
+    let specialization =document.getElementById('specialization').value;
+    let experience=document.getElementById('experience').value;
+    
+    
+  });
+</script>

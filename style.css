@@ -1,0 +1,14 @@
+#Dr-form{
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+}
+input{
+    width: 80%;
+    margin-top: -60px;
+    margin-left: 10px;
+    height: 30px;
+}
+h3{
+    margin-left: 10px;
+}
